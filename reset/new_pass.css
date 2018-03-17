@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+}
+
+.intro
+{
+    height: 100%;
+    width: 100%;
+    background: url("/img/new-pass-bg.JPG") no-repeat 100% 100%;
+    background-position: top; 
+    display: table;
+    background-size: cover;
+    min-height: auto; 
+}
+
+.inside
+{
+    width: 400px;
+    height: 330px;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    opacity: 0.8;
+    font-size: 40px;
+    color: white;
+    font-style: oblique;
+    position: relative;
+    padding: 10px;
+}
+
+input[type=text]
+{
+    height: 20px;
+    width: 250px;
+    font-size: 16px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+input[type=submit]
+{
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding: 1px 4px;
+    border: solid white 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: darkgray;
+}

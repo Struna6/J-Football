@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+}
+
+.intro
+{
+    height: 100%;
+    width: 100%;
+    background: url("/img/login-bg.png") no-repeat 100% 100%;
+    background-position: top; 
+    display: table;
+    top: 0;
+    background-size: cover;
+    min-height: auto; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inside
+{
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    opacity: 0.8;
+    font-size: 24px;
+    color: white;
+    font-style: oblique;
+    position: relative;
+}
+
+.inside .g-recaptcha
+{
+    display: inline-block;
+}
+
+input[type=text], input[type=password]
+{
+    height: 20px;
+    width: 250px;
+    font-size: 14px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+input[type=submit]
+{
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding: 1px 4px;
+    border: solid white 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: darkgray;
+}
+
+.btn
+{
+    font-size: 12px;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding: 1px 4px;
+    border: solid white 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover
+{
+    color: gray;
+    background-color: white;
+    border: solid grey 5px;
+}
+
+.btn2:hover
+{
+    color: gray;
+    background-color: white;
+    border: solid grey 5px;
+}
+
+.btn2
+{
+    font-size: 24px;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding: 1px 5px;
+    border: solid white 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+

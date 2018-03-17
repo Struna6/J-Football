@@ -1,0 +1,110 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+}
+
+.intro
+{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url("/img/bet-bg.jpg") no-repeat 100% 100%;
+    display: table;
+    top: 0;
+    background-size: cover;
+    min-height: auto;
+    background-position: top;
+}
+
+.inside
+{
+    width: 1200px;
+    min-height: auto;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    opacity: 0.95;
+    font-size: 24px;
+    color: white;
+    font-style: oblique;
+    position: relative;
+}
+
+.btn
+{
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 135%;
+    padding: 2px 8px;
+    border: solid white 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: gray;
+}
+
+.btn:hover
+{
+    color: gray;
+    background-color: white;
+    border: solid grey 5px;
+}
+
+tr
+{
+     border-radius: 30px;
+}
+
+th
+{
+    font-size: 28px;
+    background: linear-gradient(top,#3d1515 0%, #7a1a1a 100%);
+    background: -webkit-linear-gradient(top,#3d1515 0%, #7a1a1a 100%);
+}
+
+table,td,tr
+{   
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    color: white;
+    border: 2px solid #080808;
+    border-collapse: collapse;
+    font-size: 24px;
+    background: linear-gradient(top,#3c3c3c 0%, #222222 100%);
+    background: -webkit-linear-gradient(top,#3c3c3c 0%, #222222 100%);
+    opacity: 0.98;
+}
+
+input[type=text]
+{
+    height: 20px;
+    width: 250px;
+    font-size: 14px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+input[type=submit]
+{
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding: 1px 4px;
+    border: solid white 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: darkgray;
+}
+
+

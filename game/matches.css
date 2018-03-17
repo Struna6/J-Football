@@ -1,0 +1,93 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+}
+
+.intro
+{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url("/img/matches-bg.jpg") no-repeat 100% 100%;
+    display: table;
+    top: 0;
+    background-size: cover;
+    min-height: auto; 
+}
+
+.inside
+{
+    width: 1600px;
+    min-height: auto;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    opacity: 0.95;
+    font-size: 24px;
+    color: white;
+    font-style: oblique;
+    position: relative;
+}
+
+.btn
+{
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 110%;
+    padding: 2px 8px;
+    border: solid white 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: gray;
+}
+
+.btn:hover
+{
+    color: gray;
+    background-color: white;
+}
+
+tr
+{
+     border-radius: 30px;
+}
+
+th
+{
+    font-size: 28px;
+    background: linear-gradient(top,#3d1515 0%, #7a1a1a 100%);
+    background: -webkit-linear-gradient(top,#3d1515 0%, #7a1a1a 100%);
+}
+
+td,tr
+{   
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border: 2px solid #080808;
+    background: linear-gradient(top,#1c1a1a 0%, #c4c9c3 100%);
+    background: -webkit-linear-gradient(top,#1c1a1a 0%, #c4c9c3 100%);
+    font-size: 24px;
+    opacity: 0.98;
+}
+
+table
+{
+    display: inline-block;
+    border-collapse: collapse;
+    width: 1400px;
+}
+
+
+
+
+
